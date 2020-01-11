@@ -40,3 +40,7 @@ body {
 .black.active{
   background-color: navy;
 }
+.outline  {
+  background-color: black;
+  padding: 30px;
+}
