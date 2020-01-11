@@ -25,6 +25,9 @@ body {
   background-color: white;
   border: 1px solid #333;
 }
+.white.active{
+  background-color: darkgrey;
+}
 
 .black  {
   --width: 60px;
@@ -33,4 +36,7 @@ body {
   margin-left: calc(var(--width) / -2);
   margin-right: calc(var(--width) / -2);
   z-index: 2;
+}
+.black.active{
+  background-color: navy;
 }
